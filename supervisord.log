@@ -1,0 +1,221 @@
+2024-10-29 08:30:21,470 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-29 08:30:21,474 INFO supervisord started with pid 1
+2024-10-29 08:30:22,479 INFO spawned: 'employee-monitor-worker' with pid 16
+2024-10-29 08:30:22,484 INFO spawned: 'php' with pid 17
+2024-10-29 08:30:23,091 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:23,515 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-29 08:30:24,520 INFO spawned: 'employee-monitor-worker' with pid 29
+2024-10-29 08:30:25,014 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:27,020 INFO spawned: 'employee-monitor-worker' with pid 34
+2024-10-29 08:30:27,478 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:30,486 INFO spawned: 'employee-monitor-worker' with pid 39
+2024-10-29 08:30:30,487 WARN received SIGTERM indicating exit request
+2024-10-29 08:30:30,487 INFO waiting for employee-monitor-worker, php to die
+2024-10-29 08:30:30,511 INFO stopped: php (exit status 0)
+2024-10-29 08:30:30,511 INFO reaped unknown pid 25 (terminated by SIGTERM)
+2024-10-29 08:30:30,511 INFO reaped unknown pid 26 (terminated by SIGTERM)
+2024-10-29 08:30:30,512 INFO reaped unknown pid 27 (terminated by SIGTERM)
+2024-10-29 08:30:30,512 INFO reaped unknown pid 28 (terminated by SIGTERM)
+2024-10-29 08:30:30,513 INFO stopped: employee-monitor-worker (terminated by SIGTERM)
+2024-10-29 08:30:36,363 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-29 08:30:36,366 INFO supervisord started with pid 1
+2024-10-29 08:30:37,371 INFO spawned: 'employee-monitor-worker' with pid 17
+2024-10-29 08:30:37,376 INFO spawned: 'php' with pid 18
+2024-10-29 08:30:37,877 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:39,293 INFO spawned: 'employee-monitor-worker' with pid 30
+2024-10-29 08:30:39,294 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-29 08:30:39,746 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:41,752 INFO spawned: 'employee-monitor-worker' with pid 35
+2024-10-29 08:30:42,300 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:45,308 INFO spawned: 'employee-monitor-worker' with pid 40
+2024-10-29 08:30:45,824 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:30:46,826 INFO gave up: employee-monitor-worker entered FATAL state, too many start retries too quickly
+2024-10-29 08:32:40,371 INFO reaped unknown pid 26 (terminated by SIGTERM)
+2024-10-29 08:32:40,371 INFO reaped unknown pid 27 (terminated by SIGTERM)
+2024-10-29 08:32:40,371 INFO reaped unknown pid 28 (terminated by SIGTERM)
+2024-10-29 08:32:40,371 INFO reaped unknown pid 29 (terminated by SIGTERM)
+2024-10-29 08:32:42,383 INFO reaped unknown pid 62 (terminated by SIGTERM)
+2024-10-29 08:32:42,383 INFO reaped unknown pid 63 (terminated by SIGTERM)
+2024-10-29 08:32:42,383 INFO reaped unknown pid 64 (terminated by SIGTERM)
+2024-10-29 08:32:42,383 INFO reaped unknown pid 65 (terminated by SIGTERM)
+2024-10-29 08:32:47,390 WARN received SIGTERM indicating exit request
+2024-10-29 08:32:47,390 INFO waiting for php to die
+2024-10-29 08:32:47,413 INFO stopped: php (exit status 0)
+2024-10-29 08:32:47,413 INFO reaped unknown pid 67 (terminated by SIGTERM)
+2024-10-29 08:32:47,413 INFO reaped unknown pid 68 (terminated by SIGTERM)
+2024-10-29 08:32:47,413 INFO reaped unknown pid 69 (terminated by SIGTERM)
+2024-10-29 08:32:47,413 INFO reaped unknown pid 70 (terminated by SIGTERM)
+2024-10-29 08:32:57,995 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-29 08:32:57,998 INFO supervisord started with pid 1
+2024-10-29 08:32:59,003 INFO spawned: 'employee-monitor-worker' with pid 16
+2024-10-29 08:32:59,008 INFO spawned: 'php' with pid 17
+2024-10-29 08:32:59,489 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:33:00,962 INFO spawned: 'employee-monitor-worker' with pid 29
+2024-10-29 08:33:00,963 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-29 08:33:01,435 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:33:03,441 INFO spawned: 'employee-monitor-worker' with pid 34
+2024-10-29 08:33:03,962 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:33:06,969 INFO spawned: 'employee-monitor-worker' with pid 39
+2024-10-29 08:33:07,854 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:33:07,855 INFO gave up: employee-monitor-worker entered FATAL state, too many start retries too quickly
+2024-10-29 08:34:06,926 WARN received SIGTERM indicating exit request
+2024-10-29 08:34:06,927 INFO waiting for php to die
+2024-10-29 08:34:06,945 INFO stopped: php (exit status 0)
+2024-10-29 08:34:06,946 INFO reaped unknown pid 25 (terminated by SIGTERM)
+2024-10-29 08:34:06,946 INFO reaped unknown pid 26 (terminated by SIGTERM)
+2024-10-29 08:34:06,946 INFO reaped unknown pid 27 (terminated by SIGTERM)
+2024-10-29 08:34:06,946 INFO reaped unknown pid 28 (terminated by SIGTERM)
+2024-10-29 08:35:23,261 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-29 08:35:23,264 INFO supervisord started with pid 1
+2024-10-29 08:35:24,269 INFO spawned: 'employee-monitor-worker' with pid 17
+2024-10-29 08:35:24,273 INFO spawned: 'php' with pid 18
+2024-10-29 08:35:24,901 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:35:26,179 INFO spawned: 'employee-monitor-worker' with pid 30
+2024-10-29 08:35:26,180 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-29 08:35:26,651 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:35:28,658 INFO spawned: 'employee-monitor-worker' with pid 35
+2024-10-29 08:35:29,207 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:35:32,215 INFO spawned: 'employee-monitor-worker' with pid 40
+2024-10-29 08:35:32,686 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:35:33,688 INFO gave up: employee-monitor-worker entered FATAL state, too many start retries too quickly
+2024-10-29 08:37:12,244 INFO reaped unknown pid 26 (terminated by SIGTERM)
+2024-10-29 08:37:12,244 INFO reaped unknown pid 27 (terminated by SIGTERM)
+2024-10-29 08:37:12,244 INFO reaped unknown pid 28 (terminated by SIGTERM)
+2024-10-29 08:37:12,245 INFO reaped unknown pid 29 (terminated by SIGTERM)
+2024-10-29 08:37:21,256 WARN received SIGTERM indicating exit request
+2024-10-29 08:37:21,257 INFO waiting for php to die
+2024-10-29 08:37:21,279 INFO stopped: php (exit status 0)
+2024-10-29 08:37:21,279 INFO reaped unknown pid 46 (terminated by SIGTERM)
+2024-10-29 08:37:21,279 INFO reaped unknown pid 47 (terminated by SIGTERM)
+2024-10-29 08:37:21,279 INFO reaped unknown pid 48 (terminated by SIGTERM)
+2024-10-29 08:37:21,279 INFO reaped unknown pid 49 (terminated by SIGTERM)
+2024-10-29 08:37:27,794 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-29 08:37:27,797 INFO supervisord started with pid 1
+2024-10-29 08:37:28,802 INFO spawned: 'employee-monitor-worker' with pid 17
+2024-10-29 08:37:28,806 INFO spawned: 'php' with pid 18
+2024-10-29 08:37:29,311 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:37:30,738 INFO spawned: 'employee-monitor-worker' with pid 30
+2024-10-29 08:37:30,739 INFO success: php entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-29 08:37:31,189 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:37:33,196 INFO spawned: 'employee-monitor-worker' with pid 35
+2024-10-29 08:37:33,682 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:37:36,690 INFO spawned: 'employee-monitor-worker' with pid 40
+2024-10-29 08:37:37,220 INFO exited: employee-monitor-worker (exit status 1; not expected)
+2024-10-29 08:37:37,238 INFO gave up: employee-monitor-worker entered FATAL state, too many start retries too quickly
+2024-10-29 09:34:31,719 INFO reaped unknown pid 26 (terminated by SIGTERM)
+2024-10-29 09:34:31,720 INFO reaped unknown pid 27 (terminated by SIGTERM)
+2024-10-29 09:34:31,721 INFO reaped unknown pid 28 (terminated by SIGTERM)
+2024-10-29 09:34:31,721 INFO reaped unknown pid 29 (terminated by SIGTERM)
+2024-10-29 09:34:48,244 INFO reaped unknown pid 46 (terminated by SIGTERM)
+2024-10-29 09:34:48,245 INFO reaped unknown pid 47 (terminated by SIGTERM)
+2024-10-29 09:34:48,245 INFO reaped unknown pid 48 (terminated by SIGTERM)
+2024-10-29 09:34:48,246 INFO reaped unknown pid 49 (terminated by SIGTERM)
+2024-10-29 09:36:03,299 INFO reaped unknown pid 51 (terminated by SIGTERM)
+2024-10-29 09:36:03,300 INFO reaped unknown pid 52 (terminated by SIGTERM)
+2024-10-29 09:36:03,300 INFO reaped unknown pid 53 (terminated by SIGTERM)
+2024-10-29 09:36:03,300 INFO reaped unknown pid 54 (terminated by SIGTERM)
+2024-10-29 09:36:46,338 INFO reaped unknown pid 56 (terminated by SIGTERM)
+2024-10-29 09:36:46,339 INFO reaped unknown pid 57 (terminated by SIGTERM)
+2024-10-29 09:36:46,339 INFO reaped unknown pid 58 (terminated by SIGTERM)
+2024-10-29 09:36:46,339 INFO reaped unknown pid 59 (terminated by SIGTERM)
+2024-10-29 09:42:51,573 INFO reaped unknown pid 61 (terminated by SIGTERM)
+2024-10-29 09:42:51,574 INFO reaped unknown pid 62 (terminated by SIGTERM)
+2024-10-29 09:42:51,574 INFO reaped unknown pid 63 (terminated by SIGTERM)
+2024-10-29 09:42:51,574 INFO reaped unknown pid 64 (terminated by SIGTERM)
+2024-10-29 09:48:15,262 INFO reaped unknown pid 66 (terminated by SIGTERM)
+2024-10-29 09:48:15,263 INFO reaped unknown pid 67 (terminated by SIGTERM)
+2024-10-29 09:48:15,264 INFO reaped unknown pid 68 (terminated by SIGTERM)
+2024-10-29 09:48:15,264 INFO reaped unknown pid 69 (terminated by SIGTERM)
+2024-10-29 09:48:15,773 INFO reaped unknown pid 71 (terminated by SIGTERM)
+2024-10-29 09:48:15,774 INFO reaped unknown pid 72 (terminated by SIGTERM)
+2024-10-29 09:48:15,774 INFO reaped unknown pid 73 (terminated by SIGTERM)
+2024-10-29 09:48:15,774 INFO reaped unknown pid 74 (terminated by SIGTERM)
+2024-10-29 09:48:40,298 INFO reaped unknown pid 76 (terminated by SIGTERM)
+2024-10-29 09:48:40,298 INFO reaped unknown pid 77 (terminated by SIGTERM)
+2024-10-29 09:48:40,298 INFO reaped unknown pid 78 (terminated by SIGTERM)
+2024-10-29 09:48:40,298 INFO reaped unknown pid 79 (terminated by SIGTERM)
+2024-10-29 10:31:54,989 INFO reaped unknown pid 230 (exit status 0)
+2024-10-29 10:39:32,508 INFO reaped unknown pid 270 (terminated by SIGINT)
+2024-10-29 10:56:54,578 INFO reaped unknown pid 345 (terminated by SIGINT)
+2024-10-29 10:58:55,181 INFO reaped unknown pid 384 (terminated by SIGINT)
+2024-10-29 11:04:08,907 INFO reaped unknown pid 440 (terminated by SIGINT)
+2024-10-29 11:11:25,667 INFO reaped unknown pid 481 (terminated by SIGINT)
+2024-10-29 11:11:43,132 INFO reaped unknown pid 520 (terminated by SIGINT)
+2024-10-29 11:17:28,901 INFO reaped unknown pid 559 (terminated by SIGINT)
+2024-10-29 11:20:21,699 INFO reaped unknown pid 599 (terminated by SIGINT)
+2024-10-29 11:46:34,038 INFO reaped unknown pid 686 (exit status 0)
+2024-10-29 11:50:42,250 INFO reaped unknown pid 726 (exit status 0)
+2024-10-29 11:55:15,486 INFO reaped unknown pid 765 (exit status 0)
+2024-10-29 11:55:54,546 INFO reaped unknown pid 804 (exit status 0)
+2024-10-29 11:57:21,123 INFO reaped unknown pid 843 (exit status 0)
+2024-10-29 11:58:33,756 INFO reaped unknown pid 883 (exit status 0)
+2024-10-29 11:58:57,791 INFO reaped unknown pid 923 (exit status 0)
+2024-10-29 12:01:03,386 INFO reaped unknown pid 963 (exit status 0)
+2024-10-30 07:54:19,976 INFO reaped unknown pid 1003 (exit status 0)
+2024-10-30 07:57:32,207 INFO reaped unknown pid 1043 (exit status 0)
+2024-10-30 08:02:29,859 INFO reaped unknown pid 1083 (exit status 0)
+2024-10-30 08:04:10,466 INFO reaped unknown pid 1123 (exit status 0)
+2024-10-30 08:05:17,549 INFO reaped unknown pid 1163 (exit status 0)
+2024-10-30 08:05:47,586 INFO reaped unknown pid 1203 (exit status 0)
+2024-10-30 08:06:54,609 INFO reaped unknown pid 1242 (exit status 0)
+2024-10-30 08:09:30,783 INFO reaped unknown pid 1282 (exit status 0)
+2024-10-30 08:11:54,419 INFO reaped unknown pid 1322 (exit status 0)
+2024-10-30 08:12:50,428 INFO reaped unknown pid 1361 (exit status 0)
+2024-10-30 08:17:00,695 INFO reaped unknown pid 1400 (exit status 0)
+2024-10-30 08:23:59,623 INFO reaped unknown pid 1440 (exit status 0)
+2024-10-30 08:24:33,154 INFO reaped unknown pid 1480 (exit status 0)
+2024-10-30 08:30:05,932 INFO reaped unknown pid 1520 (exit status 0)
+2024-10-30 08:31:34,951 INFO reaped unknown pid 81 (terminated by SIGTERM)
+2024-10-30 08:31:34,951 INFO reaped unknown pid 82 (terminated by SIGTERM)
+2024-10-30 08:31:34,952 INFO reaped unknown pid 83 (terminated by SIGTERM)
+2024-10-30 08:31:34,952 INFO reaped unknown pid 84 (terminated by SIGTERM)
+2024-10-30 08:31:38,478 INFO reaped unknown pid 1532 (terminated by SIGTERM)
+2024-10-30 08:31:38,479 INFO reaped unknown pid 1533 (terminated by SIGTERM)
+2024-10-30 08:31:38,479 INFO reaped unknown pid 1534 (terminated by SIGTERM)
+2024-10-30 08:31:38,480 INFO reaped unknown pid 1535 (terminated by SIGTERM)
+2024-10-30 08:31:40,492 INFO reaped unknown pid 1537 (terminated by SIGTERM)
+2024-10-30 08:31:40,492 INFO reaped unknown pid 1538 (terminated by SIGTERM)
+2024-10-30 08:31:40,493 INFO reaped unknown pid 1539 (terminated by SIGTERM)
+2024-10-30 08:31:40,493 INFO reaped unknown pid 1540 (terminated by SIGTERM)
+2024-10-30 08:40:44,600 INFO reaped unknown pid 1575 (exit status 0)
+2024-10-30 08:43:37,743 INFO reaped unknown pid 1615 (exit status 0)
+2024-10-30 08:56:45,709 INFO reaped unknown pid 1655 (exit status 0)
+2024-10-30 08:59:25,387 INFO reaped unknown pid 1695 (exit status 0)
+2024-10-30 09:01:13,446 INFO reaped unknown pid 1736 (exit status 0)
+2024-10-30 09:01:59,000 INFO reaped unknown pid 1775 (exit status 0)
+2024-10-30 09:07:14,754 INFO reaped unknown pid 1815 (exit status 0)
+2024-10-30 09:08:13,823 INFO reaped unknown pid 1855 (exit status 0)
+2024-10-30 09:33:32,374 INFO reaped unknown pid 1894 (exit status 0)
+2024-10-30 09:36:10,412 INFO reaped unknown pid 1933 (exit status 0)
+2024-10-30 09:36:32,466 INFO reaped unknown pid 1974 (exit status 0)
+2024-10-30 09:38:04,058 INFO reaped unknown pid 2014 (exit status 0)
+2024-10-30 09:38:30,125 INFO reaped unknown pid 2053 (exit status 0)
+2024-10-30 09:41:44,776 INFO reaped unknown pid 2093 (exit status 0)
+2024-10-30 09:43:07,358 INFO reaped unknown pid 2134 (exit status 0)
+2024-10-30 09:44:31,042 INFO reaped unknown pid 2174 (exit status 0)
+2024-10-30 09:46:09,681 INFO reaped unknown pid 2213 (exit status 0)
+2024-10-30 09:46:54,202 INFO reaped unknown pid 2253 (exit status 0)
+2024-10-30 09:48:58,356 INFO reaped unknown pid 2293 (exit status 0)
+2024-10-30 09:49:11,805 INFO reaped unknown pid 2333 (exit status 0)
+2024-10-30 09:49:47,855 INFO reaped unknown pid 2373 (exit status 0)
+2024-10-30 09:50:31,921 INFO reaped unknown pid 2412 (exit status 0)
+2024-10-30 10:07:19,608 INFO reaped unknown pid 2453 (exit status 0)
+2024-10-30 10:07:54,187 INFO reaped unknown pid 2492 (exit status 0)
+2024-10-30 10:22:12,332 INFO reaped unknown pid 2585 (exit status 0)
+2024-10-30 10:29:02,777 INFO reaped unknown pid 2633 (exit status 0)
+2024-10-30 10:47:41,901 INFO reaped unknown pid 2694 (exit status 0)
+2024-10-30 10:54:04,972 INFO reaped unknown pid 1542 (terminated by SIGTERM)
+2024-10-30 10:54:04,972 INFO reaped unknown pid 1543 (terminated by SIGTERM)
+2024-10-30 10:54:04,973 INFO reaped unknown pid 1544 (terminated by SIGTERM)
+2024-10-30 10:54:04,973 INFO reaped unknown pid 1545 (terminated by SIGTERM)
+2024-10-30 10:54:06,484 INFO reaped unknown pid 2713 (terminated by SIGTERM)
+2024-10-30 10:54:06,485 INFO reaped unknown pid 2714 (terminated by SIGTERM)
+2024-10-30 10:54:06,485 INFO reaped unknown pid 2715 (terminated by SIGTERM)
+2024-10-30 10:54:06,485 INFO reaped unknown pid 2716 (terminated by SIGTERM)
+2024-10-30 10:57:02,677 INFO reaped unknown pid 2751 (exit status 0)
+2024-10-30 10:58:08,210 INFO reaped unknown pid 2791 (exit status 0)
+2024-10-30 10:58:46,832 INFO reaped unknown pid 2830 (exit status 0)
+2024-10-30 11:31:33,689 INFO reaped unknown pid 2916 (exit status 0)
+2024-10-30 11:32:35,154 INFO reaped unknown pid 2956 (exit status 0)
+2024-10-30 11:40:04,594 INFO reaped unknown pid 2997 (exit status 0)
+2024-10-30 11:43:17,373 INFO reaped unknown pid 3037 (exit status 0)
