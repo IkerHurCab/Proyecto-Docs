@@ -13,6 +13,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique(); 
             $table->string('password'); 
             $table->boolean('admin')->default(false); 
+            //$table->foreign('department_id')->references('department_id')->on('departments')->onDelete('cascade')->default(1);
             $table->rememberToken();
             $table->timestamps();
         
