@@ -23,9 +23,11 @@
 
 <body class="bg-gray-100">
     <x-header />
+    
     <div>
         @yield('content')
     </div>
+{{-- {{ dd(Auth::check()) }} --}}
     <x-footer />
 </body>
 

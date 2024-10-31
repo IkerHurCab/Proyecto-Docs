@@ -26,7 +26,7 @@ class LoginController extends Controller
 
         if (Hash::check($request->password, $employee->password)) {
             Auth::login($employee);
-            return redirect()->route('home');
+            return redirect()->route('homeAuth');
         } else {
             return redirect()->back()->withErrors([
                 'password' => 'La contraseña es incorrecta.'
