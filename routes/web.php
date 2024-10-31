@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\LoginController;
 
-//views
+//VISTAS DE LA WEB
 Route::get('/', function () {
     return view('welcome');
 })->name("home");
@@ -16,7 +17,11 @@ Route::get('/register', function() {
     return view('register');
 })->name("register");
 
-//BBDD
+//PARA LA BASE DE DATOS
 
-Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+//registro
 Route::post('/register', [RegisterController::class, 'register']);
+
+//login
+Route::post('/login', [LoginController::class, 'login']);
+

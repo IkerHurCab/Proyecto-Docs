@@ -1,41 +1,28 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Employee;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Validation\ValidationException;
 
 class RegisterController extends Controller
 {
-    public function showRegistrationForm()
-    {
-        return view('register');
-    }
 
     public function register(Request $request)
     {
-        try {
-            $this->validator($request->all())->validate();
-
-            $employee = $this->create($request->all());
-
-            return redirect()->route('login')->with('success', 'Registro exitoso. Por favor, inicia sesión.');
-        } catch (ValidationException $e) {
-            return redirect()->back()->withErrors($e->errors())->withInput();
-        } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'Ocurrió un error inesperado. Por favor, inténtalo de nuevo.')->withInput();
-        }
+        $this->validator($request->all())->validate();
+        $employee = $this->create($request->all());
+        return redirect()->route('login');
     }
 
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'username' => ['required', 'string', 'max:255', 'unique:employees'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:employees'],
+            'username' => ['required', 'string', 'unique:employees'],
+            'email' => ['required', 'string', 'email', 'unique:employees'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ], [
             'username.required' => 'El nombre de usuario es obligatorio.',
