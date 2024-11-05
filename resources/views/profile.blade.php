@@ -1,5 +1,5 @@
 @extends("layouts.main")
-
+    <title>Perfil - {{ env("APP_NAME") }}</title>
 @section('content')
-<div class="flex flex-col h-screen"></div>
+    @livewire('profile-component')
 @endsection

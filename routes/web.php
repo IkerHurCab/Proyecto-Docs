@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\DocumentController;
 
 //VISTAS DE LA WEB (GLOBALES)
 Route::get('/', function () {
@@ -27,13 +30,14 @@ Route::get('/logout', function() {
 Route::middleware(['auth'])->group(function () {
     Route::post('/logout', [LoginController::class, 'logout']);
 
-    Route::get('/home', function() {
-        return view('home');
-    })->name("homeAuth");
+    Route::get('/home', [HomeController::class, 'index'])->name('homeAuth');
 
     Route::get('/profile', function() {
         return view('profile');
     })->name("profile");
+
+    Route::get('/department/{id}', [DepartmentController::class, 'show'])->name('department.show');
+    Route::post('/departments/{id}/documents/upload', [DocumentController::class, 'upload'])->name('documents.upload');
     
 });
 

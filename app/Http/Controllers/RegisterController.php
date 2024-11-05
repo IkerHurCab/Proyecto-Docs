@@ -27,7 +27,8 @@ class RegisterController extends Controller
         ], [
             'username.required' => 'El nombre de usuario es obligatorio.',
             'username.unique' => 'El nombre de usuario ya está en uso.',
-            'email.required' => 'El correo electrónico es obligatorio.',
+            'email.required' => 'El co
+            rreo electrónico es obligatorio.',
             'email.email' => 'El correo electrónico debe ser una dirección válida.',
             'email.unique' => 'El correo electrónico ya está en uso.',
             'password.required' => 'La contraseña es obligatoria.',

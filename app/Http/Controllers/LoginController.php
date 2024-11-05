@@ -14,6 +14,11 @@ class LoginController extends Controller
         $request->validate([
             'email' => 'required|email',
             'password' => 'required'
+        ],
+        [
+        'email.required' => 'Por favor, escribe tu correo electrónico.',
+        'email.email' => 'Escribe una dirección de correo válida.',
+        'password.required' => 'Por favor, escribe la contraseña.'
         ]);
 
         $employee = Employee::where('email', $request->email)->first();
