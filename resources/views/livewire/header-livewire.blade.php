@@ -7,6 +7,7 @@
             <li>
                 <a href="#" wire:click.prevent="switchComponent('homeAuth')" class="hover:text-red-800">WORKSPACE</a>
             </li>
+            
             <li>
                 <a href="#" wire:click.prevent="switchComponent('profile')" class="hover:text-red-800">PERFIL</a>
             </li>

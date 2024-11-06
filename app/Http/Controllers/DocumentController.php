@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 use App\Models\Document;
 use App\Models\Department;
 
@@ -41,6 +42,21 @@ class DocumentController extends Controller
         $document->document_path = $path;
         $document->save();
 
-        return redirect()->back()->with('success', 'Documento subido exitosamente.');
+        return redirect()->back();
+    }
+
+    public function destroy($id)
+    {
+        $document = Document::findOrFail($id);
+
+        if ($document->employee_id !== Auth::id()) {
+            return redirect()->back()->with('error', 'No tienes permiso para eliminar este documento.');
+        }
+
+        Storage::delete($document->document_path);
+
+        $document->delete();
+
+        return redirect()->back();
     }
 }

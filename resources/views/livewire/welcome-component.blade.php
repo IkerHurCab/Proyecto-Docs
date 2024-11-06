@@ -1,4 +1,4 @@
 <div class="flex flex-col h-screen">
-    <h1>Bienvenido a la página de inicio</h1>
+    <h1>Bienvenido a Avandocs</h1>
 
 </div>

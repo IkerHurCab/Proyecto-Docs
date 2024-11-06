@@ -17,6 +17,11 @@
                 <li>
                     <a href="{{ route('homeAuth') }}" class="hover:text-red-800">WORKSPACE</a>
                 </li>
+                @if (Auth::user()->admin)
+                    <li>
+                        <a href="{{ route('admin') }}" class="hover:text-red-800">ADMIN</a>
+                    </li>
+                @endif
                 <li>
                     <a href="{{ route('profile') }}" class="hover:text-red-800">PERFIL</a>
                 </li>
@@ -51,6 +56,11 @@
                 <li class="py-2 border-b-1">
                     <a href="{{ route('homeAuth') }}" class="hover:text-red-800 font-montserrat">WORKSPACE</a>
                 </li>
+                @if (Auth::user()->admin)
+                <li class="py-2 border-b-1">
+                    <a href="{{ route('admin') }}" class="hover:text-red-800 font-montserrat">ADMIN</a>
+                </li>
+                @endif
                 <li class="py-2 border-b-1">
                     <a href="{{ route('profile') }}" class="hover:text-red-800 font-montserrat">PERFIL</a>
                 </li>
@@ -82,10 +92,10 @@
             mobileMenu.classList.remove('hidden');
             setTimeout(() => {
                 mobileMenu.classList.remove('max-h-0');
-                mobileMenu.classList.add('max-h-40');
+                mobileMenu.classList.add('max-h-52');
             }, 10);
         } else {
-            mobileMenu.classList.remove('max-h-40');
+            mobileMenu.classList.remove('max-h-52');
             mobileMenu.classList.add('max-h-0');
             mobileMenu.addEventListener('transitionend', () => {
                 mobileMenu.classList.add('hidden');
@@ -99,7 +109,7 @@
         const mobileMenu = document.getElementById('mobile-menu');
         if (window.innerWidth >= 1024) {
             mobileMenu.classList.add('hidden');
-            mobileMenu.classList.remove('max-h-40', 'max-h-0');
+            mobileMenu.classList.remove('max-h-52', 'max-h-0');
         }
     });
 </script>
